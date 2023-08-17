@@ -1,4 +1,5 @@
 test.txt
 .env
 .gitignore
-
+js/
+ttt/
