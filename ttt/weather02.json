@@ -1,0 +1,5623 @@
+{
+  "success": "true",
+  "result": {
+    "resource_id": "F-D0047-061",
+    "fields": [
+      {
+        "id": "contentDescription",
+        "type": "String"
+      },
+      {
+        "id": "datasetDescription",
+        "type": "String"
+      },
+      {
+        "id": "locationsName",
+        "type": "String"
+      },
+      {
+        "id": "dataid",
+        "type": "String"
+      },
+      {
+        "id": "locationName",
+        "type": "String"
+      },
+      {
+        "id": "geocode",
+        "type": "Double"
+      },
+      {
+        "id": "lat",
+        "type": "Double"
+      },
+      {
+        "id": "lon",
+        "type": "Double"
+      },
+      {
+        "id": "elementName",
+        "type": "String"
+      },
+      {
+        "id": "description",
+        "type": "String"
+      },
+      {
+        "id": "startTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "endTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "dataTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "value",
+        "type": "String"
+      },
+      {
+        "id": "measures",
+        "type": "String"
+      }
+    ]
+  },
+  "records": {
+    "locations": [
+      {
+        "datasetDescription": "臺灣各縣市鄉鎮未來3天(72小時)逐3小時天氣預報",
+        "locationsName": "臺北市",
+        "dataid": "D0047-061",
+        "location": [
+          {
+            "locationName": "南港區",
+            "geocode": "63000090",
+            "lat": "25.056317",
+            "lon": "121.59849",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "文山區",
+            "geocode": "63000080",
+            "lat": "24.991364",
+            "lon": "121.561759",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "萬華區",
+            "geocode": "63000070",
+            "lat": "25.036715",
+            "lon": "121.491618",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "大同區",
+            "geocode": "63000060",
+            "lat": "25.068025",
+            "lon": "121.507228",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "中正區",
+            "geocode": "63000050",
+            "lat": "25.046058",
+            "lon": "121.516565",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "中山區",
+            "geocode": "63000040",
+            "lat": "25.06626",
+            "lon": "121.525346",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "大安區",
+            "geocode": "63000030",
+            "lat": "25.028247",
+            "lon": "121.526401",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "信義區",
+            "geocode": "63000020",
+            "lat": "25.035095",
+            "lon": "121.558742",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "松山區",
+            "geocode": "63000010",
+            "lat": "25.051608",
+            "lon": "121.568983",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "北投區",
+            "geocode": "63000120",
+            "lat": "25.134133",
+            "lon": "121.494596",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "士林區",
+            "geocode": "63000110",
+            "lat": "25.094612",
+            "lon": "121.511458",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "locationName": "內湖區",
+            "geocode": "63000100",
+            "lat": "25.071182",
+            "lon": "121.58069",
+            "weatherElement": [
+              {
+                "elementName": "Wx",
+                "description": "天氣現象",
+                "time": [
+                  {
+                    "startTime": "2023-08-16 12:00:00",
+                    "endTime": "2023-08-16 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 15:00:00",
+                    "endTime": "2023-08-16 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 18:00:00",
+                    "endTime": "2023-08-16 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-16 21:00:00",
+                    "endTime": "2023-08-17 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 00:00:00",
+                    "endTime": "2023-08-17 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 03:00:00",
+                    "endTime": "2023-08-17 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 06:00:00",
+                    "endTime": "2023-08-17 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 09:00:00",
+                    "endTime": "2023-08-17 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 12:00:00",
+                    "endTime": "2023-08-17 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 15:00:00",
+                    "endTime": "2023-08-17 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 18:00:00",
+                    "endTime": "2023-08-17 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-17 21:00:00",
+                    "endTime": "2023-08-18 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 00:00:00",
+                    "endTime": "2023-08-18 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 03:00:00",
+                    "endTime": "2023-08-18 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 06:00:00",
+                    "endTime": "2023-08-18 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 09:00:00",
+                    "endTime": "2023-08-18 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 12:00:00",
+                    "endTime": "2023-08-18 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 15:00:00",
+                    "endTime": "2023-08-18 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 18:00:00",
+                    "endTime": "2023-08-18 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-18 21:00:00",
+                    "endTime": "2023-08-19 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 00:00:00",
+                    "endTime": "2023-08-19 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 03:00:00",
+                    "endTime": "2023-08-19 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "陰",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "07",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 06:00:00",
+                    "endTime": "2023-08-19 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 09:00:00",
+                    "endTime": "2023-08-19 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 12:00:00",
+                    "endTime": "2023-08-19 15:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 15:00:00",
+                    "endTime": "2023-08-19 18:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 18:00:00",
+                    "endTime": "2023-08-19 21:00:00",
+                    "elementValue": [
+                      {
+                        "value": "短暫陣雨或雷雨",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "15",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-19 21:00:00",
+                    "endTime": "2023-08-20 00:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 00:00:00",
+                    "endTime": "2023-08-20 03:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 03:00:00",
+                    "endTime": "2023-08-20 06:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 06:00:00",
+                    "endTime": "2023-08-20 09:00:00",
+                    "elementValue": [
+                      {
+                        "value": "晴",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "01",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  },
+                  {
+                    "startTime": "2023-08-20 09:00:00",
+                    "endTime": "2023-08-20 12:00:00",
+                    "elementValue": [
+                      {
+                        "value": "多雲",
+                        "measures": "自定義 Wx 文字"
+                      },
+                      {
+                        "value": "04",
+                        "measures": "自定義 Wx 單位"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

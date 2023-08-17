@@ -1,5 +1,7 @@
 test.txt
 .env
-.gitignore
+
+my.gitignore
+
 js/
 ttt/
