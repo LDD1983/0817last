@@ -13,30 +13,92 @@
         *{
             font-family: system-ui;
         }
+        body{
+            margin: 0;
+        }
         thead{
             text-align: center;
         }
         th{
             text-align: center;
         }
+        img{
+            width: 70px;
+        }
+        h1{
+            text-align: center;           
+            background-color: #e9e9e9;
+            margin: 0;
+            margin-bottom: 10px;
+            padding: 30px;
+            color: white;
+            text-shadow: 1px 1px 5px #ccc;
+
+        }
+        .col{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .myBtn{
+            width: 100px;
+            height: 40px;
+            display: block;
+            background-color:#def4fa;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            margin-left: 30px;
+         
+            text-shadow: 1px 1px 5px #ccc;
+        }
+        .myBtn:hover{
+            opacity: 0.8;
+        }
+        #priBtn{
+            width: 30%;
+            background-color: #eeeded;
+        }
+       
     </style>
     
 
 </head>
 
 <body>
-    <button type="button" id="myBtn">myBtn</button>
+    <h1>一般天氣預報 - 今明36小時天氣預報</h1>
+    
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="myBtn" onclick="window.print()" id="priBtn">友善列印</button>
+            </div>
+            <div class="col">
+                
+                <button type="button" class="myBtn locationBtn" onclick="" data-location="新北市">新北市</button>
+                <button type="button" class="myBtn locationBtn" onclick="" data-location="臺北市">台北市</button>
+                <button type="button" class="myBtn locationBtn" onclick="" data-location="桃園市">桃園市</button>
+                <button type="button" class="myBtn locationBtn" onclick="" data-location="臺南市">台南市</button>
+                <button type="button" class="myBtn locationBtn" onclick="" data-location="高雄市">高雄市</button>
+                <button type="button" class="myBtn locationBtn" onclick="" data-location="all">全部顯示</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+   
     <table id="myTable" class="display">
         <thead>
             <tr>
-                <th>id</th>
-                <th>name</th>
-                <th>description</th>
-                <th>format</th>              
-                <th>url</th>                              
+                <th>序號</th>
+                <th>地點</th>
+                <th>2023-08-17 12:00:00</th>              
+                <th>2023-08-17 18:00:00</th>              
+                <th>2023-08-18 06:00:00</th>                                                         
             </tr>
         </thead>
         <tbody id="myTbody">
+            
 
           
         </tbody>
@@ -55,7 +117,8 @@
         </script>
     <!-- dataTables js -->
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
-    <script src=""></script>
+    <!-- let url 外部連結 -->
+    <script src="./js/self.js"></script>
 
     
    
@@ -65,71 +128,110 @@
             const myTbody = $('#myTbody');
             const myTable = $('#myTable');
             const myBtn = $('#myBtn');
-           
-            // ajax 
-           myBtn.click(function(){
-
-                let url = "./js/weather02.json";
+            const locationBtn = $('.locationBtn')
+            
+            locationBtn.click(function(){
+                let locationdata = $(this).attr('data-location');
+                console.log('locationdata',locationdata);
                 $.ajax({
                     type: "get",
+                    // 外部連結
                     url: url,
                     // data: "data",
                     dataType: "json",
                     success: function (res) {
                         console.log('res',res);
-                        let data = res;
-
-                        console.log('data',data);
-                        // console.log('data.records',data.records);
-                        // console.log('data.result',data.result);
-                        // console.log('data.result.fields',data.result.fields);
-                        // console.log('data.result.fields[0]',data.result.fields[0]);
-                        // console.log('data.records.location',data.records.location);
-                        // console.log('data.records.location[0]',data.records.location[0]);
-                        // console.log('data.records.location[1]',data.records.location[1]);
-                        // console.log('data.records.location[1].weatherElement',data.records.location[1].weatherElement);
-                        // console.log('data.records.location[1].weatherElement[0]',data.records.location[1].weatherElement[0]);
-                        // console.log('data.records.location[1].weatherElement[0].time',data.records.location[1].weatherElement[0].time);
+                        let data = res['records']['location'];
     
-                        // console.log('data.weatherElement',data.weatherElement);
+                        console.log('data[0]["weatherElement"][2]["time"][0]["parameter"]["parameterName"]',data[0]["weatherElement"][2]["time"][0]["parameter"]['parameterName']);
+                       
+    
+                        // 先宣告content為全域變數 ////////
+                        let content = "";
+                        // 自訂序號 x /////////////
+                        // let x=1;
+                        // <td>${x++} </td>
+                        // 用each迴圈 抓locationName to content //////////////
+                        $.each(data, function (key, value) { 
+                            let locationName = value.locationName;
+                            if (locationdata == 'all') {
+                            }else if(locationdata !=locationName){
+                                return;
+                            }
+                            // return  ;
+                            // }
+    
+                           
+                            
+    
+                           
+                            //  console.log(value['locationName']);
+                            let time12 =`${value["weatherElement"][2]["time"][0]["parameter"]['parameterName']}℃
+                                        - ${value["weatherElement"][4]["time"][0]["parameter"]['parameterName']}℃`;
+                            let time24 =`${value["weatherElement"][2]["time"][1]["parameter"]['parameterName']}℃
+                                         - ${value["weatherElement"][4]["time"][1]["parameter"]['parameterName']}℃`;
+                            let time36 =`${value["weatherElement"][2]["time"][2]["parameter"]['parameterName']}℃
+                                         - ${value["weatherElement"][4]["time"][2]["parameter"]['parameterName']}℃`;
+                            let img12 = `${value["weatherElement"][0]["time"][0]["parameter"]['parameterValue']}`;
+                            let img24 = `${value["weatherElement"][0]["time"][1]["parameter"]['parameterValue']}`;
+                            let img36 = `${value["weatherElement"][0]["time"][2]["parameter"]['parameterValue']}`;
+                            let text12 = `${value["weatherElement"][0]["time"][0]["parameter"]['parameterName']}`;
+                            let text24 = `${value["weatherElement"][0]["time"][1]["parameter"]['parameterName']}`;
+                            let text36 = `${value["weatherElement"][0]["time"][2]["parameter"]['parameterName']}`;
+                            content = content +  `
+                                <tr>                                                                       
+                                    <td>${key + 1}</td>                                                                                                                                                                                                                                                                                                         
+                                    <td>${value.locationName}</td>                                                                                                                                                                                                                                                                                                         
+                                    <td>${time12}
+                                        <img src="./day/${img12}.svg" alt="${text12}">
+                                    </td>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                    <td>${time24}
+                                        <img src="./day/${img24}.svg" alt="${text24}">
+                                    </td>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                    <td>${time36}
+                                        <img src="./day/${img36}.svg" alt="${text36}">
+                                    </td>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                </tr>`
+                        });
+                        myTbody.html(content);
+                        // click and hide 
+                                       
+    
+                       
                         
-                        // let content = '';
-                        // for (let i = 0; i < data.length; i++) {   
-                        //     content = 
-                        //     content + `
-                        //         <tr>
-                        //             <th>${data[i]["id"]}</th>
-                        //             <th>${data[i]["name"]}</th>
-                        //             <th>${data[i]["description"]}</th>
-                        //             <th>${data[i]["format"]}</th>                                  \                                                                    
-                        //             <th>${data[i]["url"]}</th>                                                                           
-                        //         </tr>
-                        //      `;                              
-                        // };
-                        // myTbody.html(content);
-
-                        // $('#myTable').DataTable({
-                        //     language: {
-                        //     url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/zh-HANT.json',
-                        //     },
-                        // });  
-                        
-                        // myBtn.hide();
+                       
                     }
                 });
-            })
+                
+            // })
+    
             
-
-
+            
+    
+    
            
-
+    
            
             // console.log(content);
            
-
+    
             //  content into html ///////
             // myTbody.html(content);
             //  datatable ///////////
+            })
+            $('#myTable').DataTable({
+                            // 中文化
+                            language: {
+                            url: './datatable_chinese.js',
+                            },
+                        });  
+
+           
+           
+            // ajax 
+            // myBtn.click(function(){
+
+               
            
 
            
@@ -137,6 +239,7 @@
         });
     </script>
     <!-- jq end -->
+    <script src="./datatable_chinese.js"></script>
 </body>
 
 </html>
