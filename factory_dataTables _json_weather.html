@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+   
+    <!-- dataTables css -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css" />
+    
+    <style>
+        *{
+            font-family: system-ui;
+        }
+        thead{
+            text-align: center;
+        }
+        th{
+            text-align: center;
+        }
+    </style>
+    
+
+</head>
+
+<body>
+    <button type="button" id="myBtn">myBtn</button>
+    <table id="myTable" class="display">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>description</th>
+                <th>format</th>              
+                <th>url</th>                              
+            </tr>
+        </thead>
+        <tbody id="myTbody">
+
+          
+        </tbody>
+    </table>
+
+
+
+   
+
+
+  
+    <!-- jq src js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <!-- dataTables js -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+    <script src=""></script>
+
+    
+   
+    <!-- jq start -->
+    <script>
+        $(document).ready(function () {
+            const myTbody = $('#myTbody');
+            const myTable = $('#myTable');
+            const myBtn = $('#myBtn');
+           
+            // ajax 
+           myBtn.click(function(){
+
+                let url = "./js/weather02.json";
+                $.ajax({
+                    type: "get",
+                    url: url,
+                    // data: "data",
+                    dataType: "json",
+                    success: function (res) {
+                        console.log('res',res);
+                        let data = res;
+
+                        console.log('data',data);
+                        // console.log('data.records',data.records);
+                        // console.log('data.result',data.result);
+                        // console.log('data.result.fields',data.result.fields);
+                        // console.log('data.result.fields[0]',data.result.fields[0]);
+                        // console.log('data.records.location',data.records.location);
+                        // console.log('data.records.location[0]',data.records.location[0]);
+                        // console.log('data.records.location[1]',data.records.location[1]);
+                        // console.log('data.records.location[1].weatherElement',data.records.location[1].weatherElement);
+                        // console.log('data.records.location[1].weatherElement[0]',data.records.location[1].weatherElement[0]);
+                        // console.log('data.records.location[1].weatherElement[0].time',data.records.location[1].weatherElement[0].time);
+    
+                        // console.log('data.weatherElement',data.weatherElement);
+                        
+                        // let content = '';
+                        // for (let i = 0; i < data.length; i++) {   
+                        //     content = 
+                        //     content + `
+                        //         <tr>
+                        //             <th>${data[i]["id"]}</th>
+                        //             <th>${data[i]["name"]}</th>
+                        //             <th>${data[i]["description"]}</th>
+                        //             <th>${data[i]["format"]}</th>                                  \                                                                    
+                        //             <th>${data[i]["url"]}</th>                                                                           
+                        //         </tr>
+                        //      `;                              
+                        // };
+                        // myTbody.html(content);
+
+                        // $('#myTable').DataTable({
+                        //     language: {
+                        //     url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/zh-HANT.json',
+                        //     },
+                        // });  
+                        
+                        // myBtn.hide();
+                    }
+                });
+            })
+            
+
+
+           
+
+           
+            // console.log(content);
+           
+
+            //  content into html ///////
+            // myTbody.html(content);
+            //  datatable ///////////
+           
+
+           
+
+        });
+    </script>
+    <!-- jq end -->
+</body>
+
+</html>
